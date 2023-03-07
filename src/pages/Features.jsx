@@ -1,7 +1,8 @@
 import React from "react";
+import Container from "react-bootstrap/Container";
 
 function Features() {
-  return <div>Features</div>;
+  return <Container>Features</Container>;
 }
 
 export default Features;

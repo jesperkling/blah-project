@@ -1,7 +1,8 @@
 import React from "react";
+import Container from "react-bootstrap/Container";
 
 function Pricing() {
-  return <div>Pricing</div>;
+  return <Container>Pricing</Container>;
 }
 
 export default Pricing;
