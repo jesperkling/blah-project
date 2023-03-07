@@ -1,6 +1,10 @@
 import "./App.css";
 
-import Container from "react-bootstrap/Container";
+import { Route, Routes } from "react-router-dom";
+
+import Home from "./pages/Home";
+import Features from "./pages/Features";
+import Pricing from "./pages/Pricing";
 
 import NavBar from "./components/NavBar";
 
@@ -8,9 +12,11 @@ function App() {
   return (
     <div className="App">
       <NavBar />
-      <Container>
-        <h1 className="text-center m-5">Hello World</h1>
-      </Container>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/features" element={<Features />} />
+        <Route path="/pricing" element={<Pricing />} />
+      </Routes>
     </div>
   );
 }
