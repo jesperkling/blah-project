@@ -1,11 +1,12 @@
 import React from "react";
-import Container from "react-bootstrap/Container";
 import Carousel from "../components/Carousel";
+import MapComponent from "../components/MapComponent";
 
 function Home() {
   return (
     <>
       <Carousel />
+      <MapComponent />
     </>
   );
 }
