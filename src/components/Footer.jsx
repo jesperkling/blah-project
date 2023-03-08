@@ -19,6 +19,11 @@ function Footer() {
             Pricing
           </a>
         </li>
+        <li className="nav-item">
+          <a href="/contact" className="nav-link px-2 text-muted">
+            Contact
+          </a>
+        </li>
       </ul>
       <p className="text-center text-muted">© 2023 Blah Blah</p>
     </footer>
